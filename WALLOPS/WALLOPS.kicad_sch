@@ -1226,6 +1226,423 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "RockSat_Sym:6DOF IMU"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "6DOF IMU"
+				(at -7.62 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "4554:MODULE_4554"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Adafruit"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "N/A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/4554/Adafruit+Industries/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "N/A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/4554/Adafruit+Industries/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "4554"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "TDK InvenSense ICM-20948 9-DoF IMU (MPU-9250 Upgrade) - STEMMA QT / Qwiic | Adafruit Industries 4554"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Adafruit"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "6DOF IMU_1_0"
+				(rectangle
+					(start -7.62 -12.7)
+					(end 7.62 12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 12.7 10.16 180)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 7.62 180)
+					(length 5.08)
+					(name "1.8V"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "SCK/SCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "SDI/SDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "INT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -10.16 180)
+					(length 5.08)
+					(name "GND_JP1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "6DOF IMU_2_0"
+				(rectangle
+					(start -7.62 -12.7)
+					(end 7.62 12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 12.7 10.16 180)
+					(length 5.08)
+					(name "CS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP3_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 5.08 180)
+					(length 5.08)
+					(name "SDO/ADR"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP3_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive clock
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "AUX_SCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP3_4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "AUX_SDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP3_5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "FSYNC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP3_6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -10.16 180)
+					(length 5.08)
+					(name "GND_JP3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP3_3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RockSat_Sym:TPS62147RGXR"
 			(pin_names
 				(offset 0.254)
@@ -3129,6 +3546,12 @@
 		(uuid "04189431-91eb-4507-8373-1459c2862fb6")
 	)
 	(junction
+		(at 72.39 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a57f978-381b-4e3e-8d21-e8ae201e2a84")
+	)
+	(junction
 		(at 214.63 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3195,6 +3618,12 @@
 		(uuid "55a2ad37-27e9-438d-9dd7-25cc95fae542")
 	)
 	(junction
+		(at 74.93 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6662f6a9-96bb-483e-aae4-0487592947db")
+	)
+	(junction
 		(at 208.28 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3235,6 +3664,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4d0a9c0-4e4e-4712-87c1-b094d467c494")
+	)
+	(junction
+		(at 78.74 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c840e7d8-52b4-40e5-8aff-44906af4c1e5")
 	)
 	(junction
 		(at 82.55 81.28)
@@ -3292,7 +3727,17 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 81.28) (xy 82.55 81.28)
+			(xy 52.07 111.76) (xy 52.07 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01cbfa91-b5b6-4b20-9952-0c2709539c0f")
+	)
+	(wire
+		(pts
+			(xy 64.77 81.28) (xy 74.93 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3502,6 +3947,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 95.25) (xy 74.93 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38d34a76-6d09-4245-aed3-b0dea5e56d44")
+	)
+	(wire
+		(pts
 			(xy 199.39 58.42) (xy 199.39 63.5)
 		)
 		(stroke
@@ -3652,6 +4107,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 110.49) (xy 58.42 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5918e76d-9309-4c47-9a8a-7ff6f1a78a6a")
+	)
+	(wire
+		(pts
 			(xy 113.03 101.6) (xy 132.08 101.6)
 		)
 		(stroke
@@ -3752,6 +4217,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 107.95) (xy 72.39 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "740eaf80-a2f8-4119-a727-8295f77e0bd5")
+	)
+	(wire
+		(pts
 			(xy 76.2 43.18) (xy 96.52 43.18)
 		)
 		(stroke
@@ -3802,6 +4277,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 110.49) (xy 58.42 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8007a26f-d79d-4400-a372-791517276dc4")
+	)
+	(wire
+		(pts
 			(xy 177.8 144.78) (xy 177.8 151.13)
 		)
 		(stroke
@@ -3839,6 +4324,16 @@
 			(type default)
 		)
 		(uuid "857b924b-0f46-4bc7-9aca-20242cae1cdf")
+	)
+	(wire
+		(pts
+			(xy 72.39 101.6) (xy 86.36 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "862765fb-7b2a-4e37-8617-1ab7e696bd74")
 	)
 	(wire
 		(pts
@@ -3902,6 +4397,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 111.76) (xy 39.37 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90214dfd-5be8-47ae-882c-17eb9ecd179d")
+	)
+	(wire
+		(pts
 			(xy 173.99 91.44) (xy 173.99 114.3)
 		)
 		(stroke
@@ -3919,6 +4424,16 @@
 			(type default)
 		)
 		(uuid "9474d87b-ac05-4b45-affe-881b8f3d5c97")
+	)
+	(wire
+		(pts
+			(xy 41.91 107.95) (xy 72.39 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96988658-2b8b-44d7-a36f-cf27b173cf99")
 	)
 	(wire
 		(pts
@@ -3982,6 +4497,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 91.44) (xy 31.75 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa5d1d13-b623-49e9-a03f-9e3d66350601")
+	)
+	(wire
+		(pts
 			(xy 26.67 63.5) (xy 33.02 63.5)
 		)
 		(stroke
@@ -4022,6 +4547,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 91.44) (xy 78.74 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b658b52e-cd02-45fc-9079-16e645d53038")
+	)
+	(wire
+		(pts
 			(xy 181.61 101.6) (xy 181.61 114.3)
 		)
 		(stroke
@@ -4059,6 +4594,16 @@
 			(type default)
 		)
 		(uuid "c3d1553e-a42f-426c-bb48-0eaafb85fd2a")
+	)
+	(wire
+		(pts
+			(xy 74.93 81.28) (xy 82.55 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5fe5c81-baef-4679-a080-f01eaebf3c40")
 	)
 	(wire
 		(pts
@@ -4292,6 +4837,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 111.76) (xy 41.91 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3377f84-8ad3-4117-bf4e-32ae73fcda1e")
+	)
+	(wire
+		(pts
 			(xy 71.12 34.29) (xy 71.12 35.56)
 		)
 		(stroke
@@ -4342,7 +4897,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 101.6) (xy 86.36 101.6)
+			(xy 60.96 101.6) (xy 72.39 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4372,6 +4927,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 95.25) (xy 74.93 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe38ffd2-677f-40cf-8968-57ecfc469ca9")
+	)
+	(wire
+		(pts
 			(xy 137.16 26.67) (xy 137.16 22.86)
 		)
 		(stroke
@@ -4389,6 +4954,16 @@
 			(type default)
 		)
 		(uuid "ff822bbe-c3ef-4a22-8aa1-6caf42c10c05")
+	)
+	(label "3.3VOUT"
+		(at 45.72 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "036d4117-919b-4802-9891-c34b9d5c302f")
 	)
 	(label "LPn_0"
 		(at 90.17 151.13 90)
@@ -4409,6 +4984,16 @@
 			(justify left bottom)
 		)
 		(uuid "1cdab7ce-8cdf-4026-954c-4879ca1ab573")
+	)
+	(label "SCL"
+		(at 45.72 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "26d98ebc-ac63-414c-9ee0-0b43799b01df")
 	)
 	(label "5Vin"
 		(at 31.75 66.04 180)
@@ -4449,6 +5034,16 @@
 			(justify left bottom)
 		)
 		(uuid "4e63bdc1-a0eb-4997-a746-87761227c7aa")
+	)
+	(label "SDA"
+		(at 45.72 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ed0a680-f45f-4bb2-9ae6-867124b4cae2")
 	)
 	(label "SDA"
 		(at 190.5 101.6 0)
@@ -4780,15 +5375,15 @@
 		(dnp no)
 		(uuid "09102bd1-98a2-4d0b-925f-a24008e53de4")
 		(property "Reference" "J1"
-			(at 34.798 88.646 0)
+			(at 34.544 85.344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "JST-PH 1x8 Connector from WALLOPS to ML Suite"
-			(at 36.322 90.932 0)
+		(property "Value" "JST-PH 1x8 Connector - WALLOPS to ML Suite"
+			(at 36.068 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6557,6 +7152,292 @@
 			(project "WALLOPS"
 				(path "/a71b320d-cbec-40c8-adfb-8ac61cfef5bf"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 58.42 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91955568-d283-42b0-a427-d846e369a944")
+		(property "Reference" "#PWR021"
+			(at 58.42 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 58.42 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c9dc0fa-9f7c-478c-9921-e2cfc69d1597")
+		)
+		(instances
+			(project ""
+				(path "/a71b320d-cbec-40c8-adfb-8ac61cfef5bf"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RockSat_Sym:6DOF IMU")
+		(at 41.91 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9287830e-71f3-4364-8b5b-1afc1c6a5d5c")
+		(property "Reference" "U5"
+			(at 38.862 133.604 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "6DOF IMU (Sisko)"
+			(at 35.56 136.144 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RockSat:6DOF IMU"
+			(at 41.91 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Adafruit"
+			(at 41.91 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "N/A"
+			(at 41.91 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 41.91 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 41.91 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/4554/Adafruit+Industries/view-part/?ref=eda"
+			(at 41.91 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 41.91 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "N/A"
+			(at 41.91 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/4554/Adafruit+Industries/view-part/?ref=snap"
+			(at 41.91 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "4554"
+			(at 41.91 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "TDK InvenSense ICM-20948 9-DoF IMU (MPU-9250 Upgrade) - STEMMA QT / Qwiic | Adafruit Industries 4554"
+			(at 41.91 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 41.91 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Adafruit"
+			(at 41.91 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "JP3_4"
+			(uuid "d39487ab-0e15-44d0-92c3-6c2d5fbc994a")
+		)
+		(pin "JP1_1"
+			(uuid "ce8c8349-14b0-4b96-ae47-76849ba52ac5")
+		)
+		(pin "JP3_3"
+			(uuid "b6112d48-88b3-45e4-b12f-83e3c36590b0")
+		)
+		(pin "JP3_5"
+			(uuid "d5816d37-acff-4060-bd45-e65ec9203b0b")
+		)
+		(pin "JP1_3"
+			(uuid "cf9a5796-ac64-40df-bd8b-0e267916c2ec")
+		)
+		(pin "JP1_6"
+			(uuid "6ff38add-c2f9-4cab-af3f-aaf25d939e0c")
+		)
+		(pin "JP1_5"
+			(uuid "66235dba-4aee-4d36-b9ba-11f222015595")
+		)
+		(pin "JP1_4"
+			(uuid "f8e14c1b-1031-4527-943b-d6fd6e35be3a")
+		)
+		(pin "JP3_6"
+			(uuid "8e37b137-eb1f-494b-9639-cc93d93ffbc0")
+		)
+		(pin "JP1_2"
+			(uuid "716ee431-5169-4090-9dd1-b0fe8153a481")
+		)
+		(pin "JP3_2"
+			(uuid "2e8379b9-039e-480e-8e6e-663af05c395f")
+		)
+		(pin "JP3_1"
+			(uuid "0eaed633-9dc0-4254-8973-796a63b58eae")
+		)
+		(instances
+			(project ""
+				(path "/a71b320d-cbec-40c8-adfb-8ac61cfef5bf"
+					(reference "U5")
 					(unit 1)
 				)
 			)
