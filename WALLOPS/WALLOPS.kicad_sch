@@ -3341,12 +3341,6 @@
 		(uuid "6662f6a9-96bb-483e-aae4-0487592947db")
 	)
 	(junction
-		(at 148.59 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "926a26ad-2ce6-4fbb-8e83-79777f1f96a8")
-	)
-	(junction
 		(at 90.17 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3416,7 +3410,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 40.64) (xy 247.65 40.64)
+			(xy 170.18 40.64) (xy 247.65 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3503,16 +3497,6 @@
 			(type default)
 		)
 		(uuid "30cbc34a-7e92-416f-a1cc-29b152a5f027")
-	)
-	(wire
-		(pts
-			(xy 137.16 43.18) (xy 148.59 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36ec3769-6f83-43c8-9499-d1a4e8d3ca50")
 	)
 	(wire
 		(pts
@@ -3716,7 +3700,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 35.56) (xy 190.5 38.1)
+			(xy 175.26 35.56) (xy 175.26 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4066,7 +4050,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 38.1) (xy 190.5 38.1)
+			(xy 170.18 38.1) (xy 175.26 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4176,7 +4160,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 43.18) (xy 165.1 43.18)
+			(xy 137.16 43.18) (xy 149.86 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4193,16 +4177,6 @@
 			(type default)
 		)
 		(uuid "ecb4a6e6-bf2b-491d-a9e0-7d45f0e129a2")
-	)
-	(wire
-		(pts
-			(xy 148.59 41.91) (xy 148.59 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee835c09-e5aa-41ac-8947-24e6da1fd1de")
 	)
 	(wire
 		(pts
@@ -4683,7 +4657,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µF"
+		(property "Value" "33µF"
 			(at 140.97 34.2899 0)
 			(effects
 				(font
@@ -5546,72 +5520,6 @@
 			(project "WALLOPS"
 				(path "/a71b320d-cbec-40c8-adfb-8ac61cfef5bf"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 148.59 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4f91b7f1-9213-42cd-9d29-b92f69f91801")
-		(property "Reference" "TP2"
-			(at 153.162 40.386 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V3.3_Test"
-			(at 160.02 38.608 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "RockSat:TestPoint_Pad_D2.0mm_With_Tolerance"
-			(at 153.67 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 153.67 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 148.59 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8568e3f8-85a9-42b6-835f-1e171c7ea2e1")
-		)
-		(instances
-			(project ""
-				(path "/a71b320d-cbec-40c8-adfb-8ac61cfef5bf"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -7157,7 +7065,7 @@
 	)
 	(symbol
 		(lib_id "RockSat_Sym:Pololu_D24V22F3")
-		(at 175.26 40.64 0)
+		(at 160.02 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7165,7 +7073,7 @@
 		(dnp no)
 		(uuid "de57430c-a64d-4802-a5a4-529dd228c842")
 		(property "Reference" "U6"
-			(at 175.26 28.956 0)
+			(at 160.02 28.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7173,7 +7081,7 @@
 			)
 		)
 		(property "Value" "5V to 3.3V Converter"
-			(at 175.768 31.496 0)
+			(at 160.528 31.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7181,7 +7089,7 @@
 			)
 		)
 		(property "Footprint" "RockSat:D24V22F3"
-			(at 175.26 40.64 0)
+			(at 160.02 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7190,7 +7098,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 40.64 0)
+			(at 160.02 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7199,7 +7107,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 40.64 0)
+			(at 160.02 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7236,7 +7144,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 35.56 180)
+		(at 175.26 35.56 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7245,7 +7153,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2b7f615-9e1c-4a4b-a7ee-bfede8d6bff5")
 		(property "Reference" "#PWR02"
-			(at 190.5 29.21 0)
+			(at 175.26 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7254,7 +7162,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5 30.48 0)
+			(at 175.26 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7262,7 +7170,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 35.56 0)
+			(at 175.26 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7271,7 +7179,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 35.56 0)
+			(at 175.26 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7280,7 +7188,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 35.56 0)
+			(at 175.26 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
