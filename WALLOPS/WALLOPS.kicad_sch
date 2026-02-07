@@ -4348,7 +4348,7 @@
 		)
 		(uuid "26d98ebc-ac63-414c-9ee0-0b43799b01df")
 	)
-	(label "5Vin"
+	(label "5VinML"
 		(at 31.75 66.04 180)
 		(effects
 			(font
@@ -4508,7 +4508,7 @@
 		)
 		(uuid "8baf239a-4a1b-44da-9742-ce03bae019db")
 	)
-	(label "5Vin"
+	(label "5VinML"
 		(at 48.26 43.18 0)
 		(effects
 			(font
@@ -4517,6 +4517,16 @@
 			(justify left bottom)
 		)
 		(uuid "8e5cbd2d-c93f-4424-94eb-8e71fb92297c")
+	)
+	(label "5Vin"
+		(at 81.28 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5cb6564-590c-4b14-99fb-bad09cefec4b")
 	)
 	(label "LPn_3"
 		(at 229.87 151.13 90)
