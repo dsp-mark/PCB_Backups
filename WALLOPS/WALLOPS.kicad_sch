@@ -4735,7 +4735,7 @@
 				)
 			)
 		)
-		(property "Value" "JST-PH 1x8 Connector - WALLOPS to ML Suite"
+		(property "Value" "JST-PH 1x9 Connector - WALLOPS to ML Suite"
 			(at 36.068 87.63 0)
 			(effects
 				(font
@@ -5310,22 +5310,22 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4041707a-7852-4f75-8483-dff2bf9ebaa0")
-		(property "Reference" "TP1"
-			(at 121.92 41.1481 0)
+		(property "Reference" "TP2"
+			(at 127 38.6079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "5Vin_Test"
-			(at 121.92 38.6081 0)
+			(at 127 41.1479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "RockSat:TestPoint_Pad_D2.0mm_With_Tolerance"
@@ -5361,7 +5361,7 @@
 		(instances
 			(project ""
 				(path "/a71b320d-cbec-40c8-adfb-8ac61cfef5bf"
-					(reference "TP1")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -5944,7 +5944,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90226d0b-71c0-4a42-a00c-e0e6d8edf7dd")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 107.696 94.996 0)
 			(effects
 				(font
@@ -5998,7 +5998,7 @@
 		(instances
 			(project "WALLOPS"
 				(path "/a71b320d-cbec-40c8-adfb-8ac61cfef5bf"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6299,7 +6299,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96f00cfb-408f-4d6e-817d-a8ebcef3212d")
-		(property "Reference" "TP6"
+		(property "Reference" "TP1"
 			(at 25.4 55.372 0)
 			(effects
 				(font
@@ -6350,7 +6350,7 @@
 		(instances
 			(project "WALLOPS"
 				(path "/a71b320d-cbec-40c8-adfb-8ac61cfef5bf"
-					(reference "TP6")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -6441,7 +6441,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3d5c8a2-9df0-45f2-93fe-69d3df0a9e34")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 77.216 84.836 0)
 			(effects
 				(font
@@ -6495,7 +6495,7 @@
 		(instances
 			(project ""
 				(path "/a71b320d-cbec-40c8-adfb-8ac61cfef5bf"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -6912,7 +6912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c85f5917-bfc4-4b5f-9069-2693d78d3e1b")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 101.6 67.31 90)
 			(effects
 				(font
@@ -6964,7 +6964,7 @@
 		(instances
 			(project ""
 				(path "/a71b320d-cbec-40c8-adfb-8ac61cfef5bf"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
