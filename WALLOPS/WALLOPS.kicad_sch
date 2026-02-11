@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "WALLOPS 4x(8x8) Channel LiDAR Scan")
-		(date "2026-01-28")
-		(rev "8")
+		(date "2026-02-10")
+		(rev "12")
 		(company "RockSat ATMOLiS")
 		(comment 1 "Mark Fullton")
 	)
