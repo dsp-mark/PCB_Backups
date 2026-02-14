@@ -524,10 +524,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "./wallops",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../Desktop/WALLOPS.step",
+      "step": "WALLOPS.step",
       "svg": "",
       "vrml": ""
     },
