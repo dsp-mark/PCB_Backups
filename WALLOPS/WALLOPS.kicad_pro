@@ -524,7 +524,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "./wallops",
+      "plot": "../../../Downloads/check/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "WALLOPS.step",

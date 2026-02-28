@@ -1481,6 +1481,184 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "RockSat_Sym:LIS3MDL_Magnetometer"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LIS3MDL_Magnetometer_1_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "3-Axis Magnetometer"
+					(at 0.254 -6.858 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "3VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "INT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RockSat_Sym:Pololu_D24V22F3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3299,6 +3477,12 @@
 		(uuid "283009c0-6b9b-42f4-b324-12f80adb5abd")
 	)
 	(junction
+		(at 196.85 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33d1da13-1f13-4874-a7e9-2e7fd94f0ed6")
+	)
+	(junction
 		(at 26.67 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3353,10 +3537,22 @@
 		(uuid "955622fc-b413-41d5-8986-c6bd24d5be3f")
 	)
 	(junction
+		(at 199.39 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9901bbb9-a159-4c73-b640-b50edb7d89b8")
+	)
+	(junction
 		(at 113.03 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "997a1a3c-9a8f-439e-8621-ffa66d1407c8")
+	)
+	(junction
+		(at 194.31 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc8a13f8-12fe-4ce9-a552-0e201c3e517c")
 	)
 	(junction
 		(at 78.74 91.44)
@@ -3536,6 +3732,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 66.04) (xy 226.06 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c188992-61d8-4651-a13a-9995b79d22d7")
+	)
+	(wire
+		(pts
 			(xy 218.44 91.44) (xy 218.44 114.3)
 		)
 		(stroke
@@ -3563,6 +3769,16 @@
 			(type default)
 		)
 		(uuid "40de4896-a71a-4143-b8d2-cc1e65716e36")
+	)
+	(wire
+		(pts
+			(xy 173.99 91.44) (xy 194.31 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "467d76f7-c058-40e6-be6c-817a0c9daf59")
 	)
 	(wire
 		(pts
@@ -3666,13 +3882,23 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 91.44) (xy 173.99 91.44)
+			(xy 194.31 91.44) (xy 218.44 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "662a0b87-0d61-42cc-8d67-a9ae02b891bc")
+	)
+	(wire
+		(pts
+			(xy 199.39 101.6) (xy 226.06 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6872dd26-1df1-4a77-821d-1f2b86d50a6e")
 	)
 	(wire
 		(pts
@@ -3746,13 +3972,33 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 101.6) (xy 226.06 101.6)
+			(xy 181.61 101.6) (xy 199.39 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7c8daf8c-2e8c-4edd-b1ab-42d6f131fb58")
+	)
+	(wire
+		(pts
+			(xy 196.85 81.28) (xy 229.87 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e8f100c-b10b-45d6-9aba-d7a545d0bc28")
+	)
+	(wire
+		(pts
+			(xy 196.85 63.5) (xy 201.93 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f9913c0-2c36-41ca-b286-e7ceb1dd3372")
 	)
 	(wire
 		(pts
@@ -3783,6 +4029,16 @@
 			(type default)
 		)
 		(uuid "83501ba6-9a45-41ce-806e-750d21da91c3")
+	)
+	(wire
+		(pts
+			(xy 194.31 58.42) (xy 201.93 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84dadd16-ba22-422c-bd40-c6a18baa75cf")
 	)
 	(wire
 		(pts
@@ -3846,7 +4102,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 81.28) (xy 229.87 81.28)
+			(xy 185.42 81.28) (xy 196.85 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3946,6 +4202,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 91.44) (xy 194.31 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0224a4d-0d2f-4ae6-a179-f8a9e91842bb")
+	)
+	(wire
+		(pts
 			(xy 113.03 100.33) (xy 113.03 101.6)
 		)
 		(stroke
@@ -4003,6 +4269,26 @@
 			(type default)
 		)
 		(uuid "ac710a2a-73f3-4f9a-a779-8f220ea4dd32")
+	)
+	(wire
+		(pts
+			(xy 199.39 66.04) (xy 199.39 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae7c00ef-bdb4-4ad6-aefe-fa8038d32b4b")
+	)
+	(wire
+		(pts
+			(xy 199.39 66.04) (xy 201.93 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0fa76be-5ff1-427c-93b0-53f7a4cf3d4e")
 	)
 	(wire
 		(pts
@@ -4216,6 +4502,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 63.5) (xy 196.85 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efc61cac-1a5c-4feb-976a-d879f7cc8482")
+	)
+	(wire
+		(pts
 			(xy 64.77 68.58) (xy 64.77 81.28)
 		)
 		(stroke
@@ -4414,6 +4710,16 @@
 		)
 		(uuid "32d59423-085c-43f3-ad78-330c88f1bc21")
 	)
+	(label "SDA"
+		(at 199.39 74.93 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "384b2c47-e201-4ac8-a611-09af5c52d15e")
+	)
 	(label "3.3VOUT"
 		(at 231.14 40.64 0)
 		(effects
@@ -4473,6 +4779,16 @@
 			(justify left bottom)
 		)
 		(uuid "5c5e2eab-a9ac-45a6-9a39-8f6a8ea619fc")
+	)
+	(label "SCL"
+		(at 196.85 74.93 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6314ab2b-f891-4e32-b877-d09d9060957d")
 	)
 	(label "SCAN_LED"
 		(at 69.85 73.66 0)
@@ -4574,6 +4890,16 @@
 		)
 		(uuid "bd24353a-e61a-4457-b4cc-e2f549b054c8")
 	)
+	(label "3.3VOUT"
+		(at 194.31 74.93 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bda33e3c-d012-416c-8222-6e668b7f1488")
+	)
 	(label "LPn_2"
 		(at 31.75 81.28 180)
 		(effects
@@ -4665,7 +4991,7 @@
 		(uuid "db87bb31-d89b-41cd-9e7b-87a938e26c0e")
 	)
 	(label "3.3VOUT"
-		(at 190.5 91.44 0)
+		(at 204.47 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4768,7 +5094,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µF"
+		(property "Value" "22µF"
 			(at 140.97 34.2899 0)
 			(effects
 				(font
@@ -4991,7 +5317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VL53L8CX 2 (Brahe)"
+		(property "Value" "VL53L8CX 2 (0x2B; Brahe)"
 			(at 171.958 159.766 90)
 			(effects
 				(font
@@ -5552,7 +5878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VL53L8CX 3 (Copernicus)"
+		(property "Value" "VL53L8CX 3 (0x2C; Copernicus)"
 			(at 214.122 159.766 90)
 			(effects
 				(font
@@ -5764,6 +6090,85 @@
 			(project ""
 				(path "/a71b320d-cbec-40c8-adfb-8ac61cfef5bf"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RockSat_Sym:LIS3MDL_Magnetometer")
+		(at 212.09 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "723cf0b9-5463-401b-af58-29e8693ec0db")
+		(property "Reference" "U7"
+			(at 212.344 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LIS3MDL (0x1C;  Janeway)"
+			(at 212.344 54.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 212.09 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c46c6a44-3f97-4ab9-aac4-04f8ad153efd")
+		)
+		(pin "1"
+			(uuid "e6c240c7-610f-4d54-a013-782dd6c4c1de")
+		)
+		(pin "6"
+			(uuid "de2ce917-9caf-4177-a23d-cd8c26acf11f")
+		)
+		(pin "5"
+			(uuid "0c9cfeb4-b762-4ffa-bae2-6d531404b463")
+		)
+		(pin "4"
+			(uuid "5ff89133-e720-40d2-8b61-b128e68d9c72")
+		)
+		(pin "2"
+			(uuid "75d2f8bb-bf41-457b-b2c9-2f36110792b4")
+		)
+		(instances
+			(project ""
+				(path "/a71b320d-cbec-40c8-adfb-8ac61cfef5bf"
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -6189,7 +6594,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "6DOF IMU (Sisko)"
+		(property "Value" "6DOF IMU (0x69; Sisko)"
 			(at 35.56 136.144 90)
 			(effects
 				(font
@@ -7160,7 +7565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VL53L8CX 0 (Zwicky)"
+		(property "Value" "VL53L8CX 0 (0x20; Zwicky)"
 			(at 76.454 160.528 90)
 			(effects
 				(font
@@ -7325,6 +7730,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 226.06 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1fed8b3-ba50-4f13-8388-67da698342be")
+		(property "Reference" "#PWR05"
+			(at 226.06 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 226.06 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 226.06 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7fee12e-6fbf-453d-9cf0-2d8fa5969395")
+		)
+		(instances
+			(project ""
+				(path "/a71b320d-cbec-40c8-adfb-8ac61cfef5bf"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 190.5 35.56 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7472,7 +7943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VL58L8CX 1 (Aristotle)"
+		(property "Value" "VL58L8CX 1 (0x2A; Aristotle)"
 			(at 123.444 160.274 90)
 			(effects
 				(font
