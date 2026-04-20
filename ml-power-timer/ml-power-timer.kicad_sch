@@ -843,6 +843,16 @@
 		)
 		(uuid "75d1e8d2-88ee-4c6b-bae6-c5836055a37f")
 	)
+	(text "Triggers when TE turns off"
+		(exclude_from_sim no)
+		(at 104.14 161.798 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a2a1fd15-2a01-47d3-a83b-1004b9607840")
+	)
 	(junction
 		(at 151.13 30.48)
 		(diameter 0)
@@ -3207,7 +3217,7 @@
 				)
 			)
 		)
-		(property "Value" "G LED"
+		(property "Value" "R LED"
 			(at 129.54 156.972 0)
 			(effects
 				(font
@@ -3644,7 +3654,7 @@
 				)
 			)
 		)
-		(property "Value" "220kΩ"
+		(property "Value" "220Ω"
 			(at 119.38 156.972 90)
 			(effects
 				(font
