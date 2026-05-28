@@ -3282,15 +3282,15 @@
 		)
 		(uuid "cba325dd-1230-411f-82a7-cb34a21bef0b")
 	)
-	(text "!!!DOES LPN NEED LEVEL SHIFTER????"
+	(text "Use voltage divider instead of level shifter?"
 		(exclude_from_sim no)
-		(at 139.446 115.824 0)
+		(at 236.982 78.486 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "ef309806-797b-4bb8-abd2-c1cc339b2fa7")
+		(uuid "d49c700a-b859-4d94-9cec-ef1d56cd77d6")
 	)
 	(text "Decoupling Capacitors"
 		(exclude_from_sim no)
@@ -3439,12 +3439,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83cabdee-3026-48ec-b468-d74a59a7f718")
-	)
-	(junction
-		(at 143.51 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9660ec4e-def8-4457-9e7d-01d4baa307b1")
 	)
 	(junction
 		(at 72.39 109.22)
@@ -3680,16 +3674,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 52.07) (xy 144.78 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a7e9102-87b1-490a-b053-bda44f669188")
-	)
-	(wire
-		(pts
 			(xy 162.56 52.07) (xy 166.37 52.07)
 		)
 		(stroke
@@ -3697,16 +3681,6 @@
 			(type default)
 		)
 		(uuid "1b0dce93-be5a-4383-911a-aaf584e3ab60")
-	)
-	(wire
-		(pts
-			(xy 143.51 52.07) (xy 143.51 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e02b198-9df9-47d7-95e8-837cd3af1b14")
 	)
 	(wire
 		(pts
@@ -3847,16 +3821,6 @@
 			(type default)
 		)
 		(uuid "34e5de56-3a49-4112-9cca-31d8ab572e6b")
-	)
-	(wire
-		(pts
-			(xy 46.99 44.45) (xy 46.99 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3541da49-ac88-482b-b6d4-b855991249a6")
 	)
 	(wire
 		(pts
@@ -4210,6 +4174,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 44.45) (xy 46.99 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6283d82b-5b51-4c72-ba07-9c459bcaed9c")
+	)
+	(wire
+		(pts
 			(xy 101.6 63.5) (xy 104.14 63.5)
 		)
 		(stroke
@@ -4317,16 +4291,6 @@
 			(type default)
 		)
 		(uuid "7716b483-0183-4774-a81f-e6af3aaab875")
-	)
-	(wire
-		(pts
-			(xy 143.51 67.31) (xy 143.51 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77ecd0a3-3c14-4ae5-81ab-4fe10090959a")
 	)
 	(wire
 		(pts
@@ -4457,6 +4421,16 @@
 			(type default)
 		)
 		(uuid "91662f49-d4d7-43f6-a4b8-aa6526e83f5a")
+	)
+	(wire
+		(pts
+			(xy 166.37 82.55) (xy 179.07 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9421af9e-7eba-4d35-86f0-5e93fcfab3d8")
 	)
 	(wire
 		(pts
@@ -4600,7 +4574,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 52.07) (xy 143.51 52.07)
+			(xy 139.7 52.07) (xy 144.78 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4630,7 +4604,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 90.17) (xy 176.53 90.17)
+			(xy 85.09 90.17) (xy 204.47 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4727,6 +4701,16 @@
 			(type default)
 		)
 		(uuid "c027add1-5263-4e99-8d27-cf5acfb6c2a1")
+	)
+	(wire
+		(pts
+			(xy 204.47 82.55) (xy 204.47 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c07607b0-352f-4715-ad12-e9ffa5851433")
 	)
 	(wire
 		(pts
@@ -5159,7 +5143,7 @@
 		(uuid "14928685-d126-4684-8027-133b5a482635")
 	)
 	(label "SDA"
-		(at 46.99 44.45 90)
+		(at 46.99 50.8 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6101,7 +6085,7 @@
 				)
 			)
 		)
-		(property "Value" "? F"
+		(property "Value" "100μF"
 			(at 101.6 57.15 90)
 			(effects
 				(font
@@ -7070,6 +7054,71 @@
 			(project "WALLOPS_REDEMPTION_ARC"
 				(path "/e70a348f-eac5-4047-8b06-1092c268c28a"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 166.37 82.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "390fbfc3-28b7-4407-b42a-020ba8aeeaf6")
+		(property "Reference" "#PWR028"
+			(at 160.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.306 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb7ea033-f7b0-47d1-b3cd-cf835b982ee7")
+		)
+		(instances
+			(project "WALLOPS_REDEMPTION_ARC"
+				(path "/e70a348f-eac5-4047-8b06-1092c268c28a"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -10871,75 +10920,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 143.51 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eb22e2c7-8859-4357-a70f-343d7dee7546")
-		(property "Reference" "C5"
-			(at 146.304 61.976 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1μF"
-			(at 146.304 64.516 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.4752 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 143.51 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "631a1864-d07b-4094-ac4b-814f077c1111")
-		)
-		(pin "2"
-			(uuid "c46ef38e-23d4-4665-917e-a23303608141")
-		)
-		(instances
-			(project "WALLOPS_REDEMPTION_ARC"
-				(path "/e70a348f-eac5-4047-8b06-1092c268c28a"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 96.52 100.33 270)
 		(unit 1)
@@ -11013,71 +10993,6 @@
 			(project "WALLOPS_REDEMPTION_ARC"
 				(path "/e70a348f-eac5-4047-8b06-1092c268c28a"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 143.51 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f7db4e06-6fe9-4023-bb09-01e17dbb32f4")
-		(property "Reference" "#PWR023"
-			(at 143.51 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 143.51 75.184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 143.51 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db478486-d075-4274-8f2a-ca970fbe187c")
-		)
-		(instances
-			(project "WALLOPS_REDEMPTION_ARC"
-				(path "/e70a348f-eac5-4047-8b06-1092c268c28a"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
